@@ -15,7 +15,6 @@ import org.jsoup.select.Elements;
 public class P人民网科技新闻排行榜 {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		String url = "http://scitech.people.com.cn/";
 		Document document = Jsoup.connect(url)
 				.userAgent("Mozilla/5.0 (Windows NT 6.1; rv:30.0) Gecko/20100101 Firefox/30.0").get();

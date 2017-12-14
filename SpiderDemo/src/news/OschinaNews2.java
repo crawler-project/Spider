@@ -17,7 +17,6 @@ import org.jsoup.select.Elements;
 public class OschinaNews2 {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		String url = "https://www.oschina.net/news";
 		Document document = Jsoup.connect(url)
 				.userAgent("Mozilla/5.0 (Windows NT 6.1; rv:30.0) Gecko/20100101 Firefox/30.0").get();
