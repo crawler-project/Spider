@@ -11,7 +11,8 @@
 	<classpathentry kind="lib" path="lib/httpcore-4.4.7.jar"/>
 	<classpathentry kind="lib" path="lib/httpcore-4.2.2.jar"/>
 	<classpathentry kind="lib" path="lib/httpclient-cache-4.5.4.jar"/>
-	<classpathentry kind="lib" path="lib/httpclient-4.5.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.4.jar" sourcepath="D:/Java/MarvenRespository/org/apache/httpcomponents/httpclient/4.5.4/httpclient-4.5.4-sources.jar"/>
 	<classpathentry kind="lib" path="lib/fastjson-1.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
