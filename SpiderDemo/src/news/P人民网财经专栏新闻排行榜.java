@@ -7,7 +7,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 /**
- *TODO 人民网财经专栏新闻排行榜新闻抓取，这里只抓取了新闻标题和链接。内容抓取方式一样
+ * TODO 人民网财经专栏新闻排行榜新闻抓取，这里只抓取了新闻标题和链接。内容抓取方式一样
+ * 
  * @author 寇爽
  * @date 2017年12月13日
  * @version 1.8
@@ -17,7 +18,7 @@ public class P人民网财经专栏新闻排行榜 {
 	public static void main(String[] args) throws IOException {
 		String url = "http://finance.people.com.cn/";
 		Document document = Jsoup.connect(url)
-				.userAgent("Mozilla/5.0 (Windows NT 6.1; rv:30.0) Gecko/20100101 Firefox/30.0").get();
+				.userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0").get();
 
 		// #id: 通过ID查找元素，比如：#logo
 		Elements items = document.select(".ph_list >li");

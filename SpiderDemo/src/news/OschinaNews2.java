@@ -19,7 +19,7 @@ public class OschinaNews2 {
 	public static void main(String[] args) throws IOException {
 		String url = "https://www.oschina.net/news";
 		Document document = Jsoup.connect(url)
-				.userAgent("Mozilla/5.0 (Windows NT 6.1; rv:30.0) Gecko/20100101 Firefox/30.0").get();
+				.userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0").get();
 		// 由于“热门综合咨询”和“软件更新”的class属性相同，所以下面语句会把软件更新的元素也获取进来
 		Elements items = document.select(".news-list-simple-item .item");
 		// System.out.println(items.size());// 20
