@@ -19,7 +19,7 @@ public class ImageCrawlController {
 
 	    String rootFolder =  "E:/crawler/ImageCrawler/data"; // 定义爬虫数据存储位置
 	    int numberOfCrawlers = 7; // 定义7个爬虫，也就是7个线程
-	    String storageFolder = "E:/crawler/ImageCrawler/umeiPicture"; // 定义爬取的图片本地存储位置
+	    String storageFolder = "E:/crawler/ImageCrawler/renmingwang"; // 定义爬取的图片本地存储位置
 
 	    CrawlConfig config = new CrawlConfig(); // 实例化爬虫配置
 
@@ -31,7 +31,7 @@ public class ImageCrawlController {
 	     */
 	    config.setIncludeBinaryContentInCrawling(true);
 
-	    String[] crawlDomains = {"http://www.umei.cc/"};
+	    String[] crawlDomains = {"http://finance.people.com.cn/"};
 
 	    /*
 	     * 实例化爬虫控制器

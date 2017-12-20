@@ -12,8 +12,11 @@ import edu.uci.ics.crawler4j.crawler.WebCrawler;
 import edu.uci.ics.crawler4j.parser.BinaryParseData;
 import edu.uci.ics.crawler4j.url.WebURL;
 
-/*
- * 这个类主要是爬取图片，并且存储到指定文件夹
+/**
+ *TODO 这个类主要是爬取图片，并且存储到指定文件夹
+ * @author 寇爽
+ * @date 2017年12月19日
+ * @version 1.8
  */
 public class ImageCrawler extends WebCrawler {
 

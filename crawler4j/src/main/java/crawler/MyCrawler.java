@@ -41,9 +41,10 @@ public class MyCrawler extends WebCrawler {
 			String html = htmlParseData.getHtml();//获取页面Html
 			Set<WebURL> links = htmlParseData.getOutgoingUrls();// 获取页面输出链接
 
+            System.out.println("标题：             "+htmlParseData.getTitle());
 			System.out.println("纯文本长度: " + text.length());
 			System.out.println("html长度: " + html.length());
-			System.out.println("链接个数 " + links.size());
+			System.out.println("链接个数          " + links.size());
 		}
 	}
 }
